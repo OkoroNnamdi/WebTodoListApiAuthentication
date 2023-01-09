@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebApiAuth.Models.RefreshToken">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAABAAA=</HashCode>
+      <FileName>Models\RefreshToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiAuth.Models.TodoResponse">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\TodoResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiAuth.Models.User">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACCAAAAQAAAAAAAAQAAAEAAAAAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TodoListAuthentication.Models.Todo">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACACAAAAAAEABAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Todo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiAuth.Respository.Services.Respository">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAwAAAEAEAAAAAAQAAgQAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Respository\Implementation\Respository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_todoContext" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TodoListAuthentication.Data.TodoContext" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Data\TodoContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiAuth.Respository.Implementation.UserService">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Respository\Implementation\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_httpContextAccessor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WebApiAuth.Dto.TodoDto">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dto\TodoDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebApiAuth.Dto.UserDTO">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Dto\UserDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Microsoft.AspNetCore.Http.IHttpContextAccessor" Collapsed="true">
+    <Position X="13.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="TodoListAuthentication.Repository.Interface.ItodoRepository">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAwAAAEAEAAAAAAQAAgAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Respository\Interface\ItodoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
